@@ -31,6 +31,7 @@ div2.style.height = div1.clientHeight + 6 + 'px';
 div2.style.width = div1.clientWidth + 6 + 'px';
 
 document.getElementById("button").addEventListener("click", function() {
-  div1.style.zIndex = -2;
-  div1.style.display = none;
+  div1.style.zIndex = -1;
+  div1.style.borderWidth = 0 + 'px';
+  div1.style.backgroundColor = 'rgba(0,0,0,0)'
 });
